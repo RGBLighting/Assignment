@@ -1,0 +1,109 @@
+body {
+    background-image: url("chevron.png");
+    background-repeat: repeat;
+}
+
+img {
+    width: 500px;
+}
+
+table {
+    width: 50%;
+}
+
+button {
+    font-style: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+p, tr, td, th, dl, dt{
+    font-weight: bold;
+    font-style: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-family: 'Brush Script MT', 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+h2, h3 {
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-weight: bold ;
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li a:link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 45px;
+    text-decoration: none;
+}
+
+li a:visited {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 80px;
+    text-decoration: none;
+}
+
+li a:hover, button:hover {
+    background-color: #111;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+dt, dl {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+}
